@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    font-weight: 700;
+    color: #385F96;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h1 {
+    font-weight: 700;
+    color: #385F96;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0.005em;
+}
+
+p {
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 40px;
+
+}
+.section-padding{
+    padding: 100px 0 0 0;
+}
+.container {
+    width: 1110px;
+    margin: auto;
+    position: relative;
+}
+section {
+    overflow: hidden;
+}
+
+.half_width {
+width: 45%;
+float: left;
+}
+
+.big_image {
+    margin-left: 20%;
+}
+
+.hero-title {
+text-align: left;
+}
+
+.bubble {
+    position: absolute;
+    top: -80px;
+    left: -100px;
+    z-index: -1;
+    overflow:auto;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #385F96;
+    color:#FFF;
+    padding: 15px 25px;
+    border-radius: 33px;
+    transition: 0.1s ease-in;
+}
+.btn:hover {
+    background-color: #333333;
+}
+
+
+/* ----------------mid section------------ */
+.mid-title::before {
+    content: " ";
+    background-color: #44D1D9;
+    width: 80px;
+    height: 5px;
+    position: absolute;
+    top: -20px;
+}
+
+/* --------------last-section---------------- */
+h2.title {
+    margin-bottom: 30px;
+}
+.bottom-bubble {
+    position: absolute;
+    top: -40px;
+    left: -90px;
+    z-index: -1;
+}
+.half_width.first {
+    margin-top: 40px;
+}
+/* ------------------footer----------- */
+
+.footer {
+    background-color: #385F96;
+    margin-top: 50px;
+    text-align: center;
+}
+.footer-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF; 
+    padding: 10px 0 10px 0;
+}
+
+.footer-text span {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
